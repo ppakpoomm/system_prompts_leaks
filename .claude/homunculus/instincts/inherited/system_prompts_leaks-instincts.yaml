@@ -1,0 +1,367 @@
+# Instincts generated from https://github.com/ppakpoomm/system_prompts_leaks
+# Generated: 2026-04-12T01:30:58.907Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: system_prompts_leaks-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Commit Length
+
+## Action
+
+Keep commit messages concise (~48 characters)
+
+## Evidence
+
+- Average commit message length: 48 chars
+- Based on 10 commits
+
+---
+id: system_prompts_leaks-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Naming Files
+
+## Action
+
+Use kebab-case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: kebab-case
+
+---
+id: system_prompts_leaks-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: system_prompts_leaks-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: system_prompts_leaks-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: system_prompts_leaks-workflow-rename-readme-to-uppercase
+trigger: "when doing rename readme to uppercase"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Workflow Rename Readme To Uppercase
+
+## Action
+
+Follow the rename-readme-to-uppercase workflow:
+1. Identify readme.md files with lowercase naming.
+2. Rename readme.md to README.md in the relevant directory.
+3. Commit the renamed file.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: README.md, OpenAI/API/README.md
+
+---
+id: system_prompts_leaks-workflow-codex-models-bulk-edit
+trigger: "when doing codex models bulk edit"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Workflow Codex Models Bulk Edit
+
+## Action
+
+Follow the codex-models-bulk-edit workflow:
+1. Identify all files in OpenAI/codex/ matching model or personality prompt patterns.
+2. Apply the required structural or formatting change to each file.
+3. Commit all affected files together.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: OpenAI/codex/*.md
+
+---
+id: system_prompts_leaks-instinct-file-naming
+trigger: "When creating or renaming source files"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct File Naming
+
+## Action
+
+Use kebab-case for file names (e.g., my-file.ts)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.files
+- Consistent with existing file names
+
+---
+id: system_prompts_leaks-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Function Naming
+
+## Action
+
+Use camelCase for function names (e.g., doSomething)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.functions
+
+---
+id: system_prompts_leaks-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Class Naming
+
+## Action
+
+Use PascalCase for class names (e.g., MyClass)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.classes
+
+---
+id: system_prompts_leaks-instinct-constant-naming
+trigger: "When defining a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for constant names (e.g., MAX_SIZE)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.constants
+
+---
+id: system_prompts_leaks-instinct-import-style
+trigger: "When importing modules"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in codeStyle.importStyle
+
+---
+id: system_prompts_leaks-instinct-export-style
+trigger: "When exporting modules or symbols"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in codeStyle.exportStyle
+
+---
+id: system_prompts_leaks-instinct-test-location
+trigger: "When adding new tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Test Location
+
+## Action
+
+Place test files in a separate test directory
+
+## Evidence
+
+- Pattern in architecture.testLocation
+
+---
+id: system_prompts_leaks-instinct-git-commit-prefix
+trigger: "When writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Git Commit Prefix
+
+## Action
+
+Prefix commit messages with the affected area (e.g., README:, codex:)
+
+## Evidence
+
+- Seen in commit 'README: refresh OpenAI table for Codex split + fix broken links'
+- Seen in commit 'codex: hard-break header metadata lines for GFM rendering'
+
+---
+id: system_prompts_leaks-instinct-git-commit-length
+trigger: "When composing a commit message"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Git Commit Length
+
+## Action
+
+Keep commit messages concise (average ~48 characters)
+
+## Evidence
+
+- Pattern in commits.averageLength
+
+---
+id: system_prompts_leaks-instinct-rename-readme-uppercase
+trigger: "When enforcing README.md naming conventions across the repository or subfolders"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Rename Readme Uppercase
+
+## Action
+
+Identify readme.md files with lowercase naming, rename them to README.md, and commit the change
+
+## Evidence
+
+- Workflow: rename-readme-to-uppercase
+- Seen in commits: 'Rename readme.md to README.md'
+
+---
+id: system_prompts_leaks-instinct-codex-bulk-edit
+trigger: "When restructuring, reformatting, or updating metadata across all Codex model and personality files"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: ppakpoomm/system_prompts_leaks
+---
+
+# System_prompts_leaks Instinct Codex Bulk Edit
+
+## Action
+
+Identify all files in OpenAI/codex/ matching model or personality prompt patterns, apply the required change, and commit all affected files together
+
+## Evidence
+
+- Workflow: codex-models-bulk-edit
+- Seen in commits: 'Split Codex 0.119.0 models cache into per-model + per-personality files'
+

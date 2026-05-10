@@ -104,7 +104,7 @@ Updated regularly with new models and versions. PRs welcome.
 | Gemini CLI | [System prompt](Google/gemini-cli.md) |
 | Google Search AI Mode | [System prompt](Google/google-search-ai-mode.md) |
 | Jules | [System prompt](Google/jules.md) |
-| Gemini in Chrome | [System prompt](Google/gemini_in_chrome.md) |
+| Gemini in Chrome | [System prompt](Google/gemini-in-chrome.md) |
 | Gemini Workspace | [System prompt](Google/gemini-workspace.md) |
 
 <details><summary>Older models</summary>
@@ -149,18 +149,18 @@ Updated regularly with new models and versions. PRs welcome.
 | Brave Search | [System prompt](Misc/brave-search.md) |
 | Indus AI | [System prompt](Misc/indus-ai.md) |
 | GitHub Copilot (Word) | [System prompt](Misc/copilot-in-microsoft-word.md) |
-| Notion AI | [System prompt](Misc/Notion-AI.md) |
-| Kagi Assistant | [System prompt](Misc/Kagi%20Assistant.md) |
-| Le Chat (Mistral) | [System prompt](Misc/Le-Chat.md) |
-| Raycast AI | [System prompt](Misc/Raycast-AI.md) |
-| Warp 2.0 Agent | [System prompt](Misc/Warp-2.0-agent.md) |
+| Notion AI | [System prompt](Misc/notion-ai.md) |
+| Kagi Assistant | [System prompt](Misc/kagi-assistant.md) |
+| Le Chat (Mistral) | [System prompt](Misc/le-chat.md) |
+| Raycast AI | [System prompt](Misc/raycast-ai.md) |
+| Warp 2.0 Agent | [System prompt](Misc/warp-2.0-agent.md) |
 | t3.chat | [System prompt](Misc/t3.chat.md) |
-| Confer | [System prompt](Misc/Confer.md) |
-| Fellou Browser | [System prompt](Misc/Fellou-browser.md) |
+| Confer | [System prompt](Misc/confer.md) |
+| Fellou Browser | [System prompt](Misc/fellou-browser.md) |
 | Hermes | [System prompt](Misc/hermes.md) |
 | MiniMax M2.5 | [System prompt](Misc/minimax-m2.5.md) |
 | Proton Lumo AI | [System prompt](Misc/proton-lumo-ai.md) |
-| Sesame AI Maya | [System prompt](Misc/Sesame-AI-Maya.md) |
+| Sesame AI Maya | [System prompt](Misc/sesame-ai-maya.md) |
 | Character AI | [System prompt](Misc/character-ai.md) |
 | Flint K12 | [System prompt](Anthropic/FlintK12/prompt.md) · [Tools](Anthropic/FlintK12/tools.md) · [User info](Anthropic/FlintK12/user-info.md) |
 
